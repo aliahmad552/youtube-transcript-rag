@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Q&A with LLM</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>🎥 YouTube Q&A with LLM</h1>
+            <p>Ask any question about a YouTube video — AI will answer using its transcript.</p>
+        </header>
+
+        <div id="chat-box" class="chat-box">
+            <div class="message bot">
+                👋 Hi! Paste a YouTube video link and ask your first question.
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="youtube-url" placeholder="🎬 Paste YouTube URL..." />
+            <textarea id="user-question" placeholder="💬 Ask a question about the video..."></textarea>
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>⚡ Built with FastAPI & LLM | Designed by Ali Ahmad</p>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
