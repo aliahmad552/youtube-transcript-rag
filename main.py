@@ -17,7 +17,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
+# Query
 class YouTubeQuery(BaseModel):
     url: str
     question: str
