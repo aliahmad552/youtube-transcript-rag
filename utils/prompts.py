@@ -1,5 +1,6 @@
 from langchain_core.prompts import PromptTemplate
 
+# PromptTemplate
 qa_prompt = PromptTemplate(
     template="""
     You are a helpful AI assistant.
