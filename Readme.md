@@ -25,20 +25,21 @@ Users can enter a YouTube video URL and ask questions — the system generates a
 youtube-transcript-rag/
 │
 ├─ frontend/
-│ ├─ index.html # Chatbot UI
-│ ├─ style.css # Stylesheet
-│ └─ script.js # JS logic
+│   ├─ index.html         # Chatbot UI
+│   ├─ style.css          # Stylesheet
+│   └─ script.js          # JS logic
 │
 ├─ utils/
-│ ├─ youtube_utils.py # Functions to extract video ID & transcript
-│ └─ qa_pipeline.py # Functions to generate answers from transcript
+│   ├─ youtube_utils.py   # Functions to extract video ID & transcript
+│   └─ qa_pipeline.py     # Functions to generate answers from transcript
 │
 ├─ model/
-│ └─ Youtube_RAG_System.ipynb # Notebook for initial experimentation
+│   └─ Youtube_RAG_System.ipynb   # Notebook for initial experimentation
 │
-├─ main.py # FastAPI backend
-├─ requirements.txt # Python dependencies
-└─ .env # Hugging Face API token (local only, not pushed)
+├─ main.py                # FastAPI backend
+├─ requirements.txt       # Python dependencies
+└─ .env                   # Hugging Face API token (local only, not pushed)
+
 ## ⚡ How it Works
 
 1. **User enters a YouTube URL** and their question in the chatbot UI.
@@ -140,3 +141,4 @@ Support for multiple LLM providers
 ## Author
 
 Ali Ahmad – BS Software Engineering
+
