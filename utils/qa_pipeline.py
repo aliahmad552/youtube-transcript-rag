@@ -16,6 +16,7 @@ embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-Mi
 llm = HuggingFaceEndpoint(repo_id="meta-llama/Meta-Llama-3-8B-Instruct", task="text-generation")
 chat_model = ChatHuggingFace(llm=llm)
 
+# Vector Store
 def get_vector_store(video_id: str, transcript: str):
     """Cache & reuse FAISS vector store for each video."""
     os.makedirs("cache", exist_ok=True)
