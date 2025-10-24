@@ -1,4 +1,5 @@
-streamlit
+fastapi
+uvicorn
 youtube-transcript-api
 langchain-text-splitters
 langchain-community
