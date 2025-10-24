@@ -21,7 +21,7 @@ app.add_middleware(
 class YouTubeQuery(BaseModel):
     url: str
     question: str
-
+# Post Endpoint
 @app.post("/youtube_qa")
 async def youtube_qa(query: YouTubeQuery):
     """Main API endpoint."""
