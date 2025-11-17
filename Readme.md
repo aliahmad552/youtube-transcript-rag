@@ -20,7 +20,7 @@ Users can enter a YouTube video URL and ask questions — the system generates a
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure Repo
 
 youtube-transcript-rag/
 │
@@ -141,4 +141,5 @@ Support for multiple LLM providers
 ## Author
 
 Ali Ahmad – BS Software Engineering
+
 
